@@ -1,0 +1,27 @@
+.Toolbar {
+  background-color: lightgray;
+  padding: 10px;
+  display: flex;
+  height: 50px;
+  border: 1px solid black;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  .threeButtons {
+    max-width: 470px;
+    display: flex;
+    gap: 10px;
+    flex: 1;
+
+    button {
+      max-width: 150px;
+      flex: 1;
+    }
+
+    select {
+      max-width: 150px;
+      flex: 1;
+    }
+  }
+}

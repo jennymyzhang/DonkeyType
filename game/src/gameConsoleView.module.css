@@ -1,0 +1,100 @@
+.gameConsole {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 5px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#input {
+  display: flex;
+  gap: 5px;
+  flex: 1;
+}
+
+#numWordsInput {
+  display: flex;
+  flex: 1;
+}
+
+#gamePropertiesInput {
+  display: flex;
+  gap: 5px;
+  flex: 1;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+#numWordsInputError {
+  background-color: lightcoral;
+  border: 2px solid red;
+}
+
+@media only screen and (min-width: 601px) {
+  /* Executes this CSS styling when screen width > 600px */
+  div#gamePropertiesInput {
+    flex-flow: row;
+    align-items: center;
+  }
+}
+
+#resetButton {
+  display: flex;
+  flex: 1;
+}
+
+#resetButton > button {
+  flex: 1;
+  background-color: lightgray;
+}
+
+input {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#gamePropertiesInput label {
+  text-wrap: nowrap;
+}
+
+#textInput {
+  display: flex;
+  flex: 1;
+}
+
+#gameLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+  label {
+    font-family: sans-serif;
+  }
+}
+
+div#labelProperty {
+  display: flex;
+  align-items: center;
+
+  label {
+    font-family: sans-serif;
+  }
+}
+
+div#textFieldProperty {
+  display: flex;
+  flex: 1;
+}
+
+div#textFieldProperty > input {
+  flex: 1;
+  width: 0px;
+}
+
+div#textInput > input {
+  flex: 1;
+}

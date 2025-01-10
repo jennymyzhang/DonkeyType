@@ -1,0 +1,91 @@
+.gameArea {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  flex: 2 2 0;
+  overflow-y: scroll;
+  align-content: flex-start;
+}
+
+#error {
+  font-size: calc(10px + 4vw);
+  max-width: fit-content;
+  max-height: fit-content;
+  flex-wrap: wrap;
+  flex-basis: 0;
+}
+
+.gameAreaError {
+  display: flex;
+  background-color: lightcoral;
+  border: 2px solid red;
+  flex: 2 2 0;
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameAreaComplete {
+  background-color: #d1ffbd;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  flex: 2 2 0;
+  overflow-y: scroll;
+  align-content: flex-start;
+}
+
+.completed {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0fff50;
+  border: 1px solid #0fff50;
+}
+
+.completedcompleted {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0fff50;
+  border: 1px solid #0fff50;
+}
+
+.completedcompleted#oneText:hover {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0fff50;
+  border: 1px solid #0fff50;
+}
+
+.focused {
+  display: inline-flex;
+  align-items: center;
+  background-color: yellow;
+  border: 1px solid yellow;
+}
+
+.userFocused {
+  display: inline-flex;
+  align-items: center;
+  background-color: yellow;
+  border: 1px solid red;
+}
+
+.incomplete {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid white;
+}
+
+#oneText:hover {
+  display: inline-flex;
+  align-items: center;
+  background-color: lightyellow;
+  border: 1px solid lightpink;
+}

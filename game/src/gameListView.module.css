@@ -1,0 +1,39 @@
+div#gameList {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+div#gameProgress {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  border: 1px solid black;
+}
+
+#progressBar {
+  display: flex;
+  height: 80px;
+  flex: 1 1 0;
+}
+
+div#complete {
+  background-color: lightgreen;
+}
+
+div#incomplete {
+  background-color: lightgray;
+}
+
+div#gameId {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+}
